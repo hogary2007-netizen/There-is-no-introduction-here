@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(222, 246, 252);
+}
+
+h1 {
+    font-size: 300%;
+    margin: 12px 30px;
+    padding: 5px 20px;
+    margin-left: 150px;
+    color: rgb(120, 53, 197);
+    border-radius: 10px 10px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px 0px 0px;
+    margin: 70px 20px 0px 20px;
+    border-right: 3px solid rgb(185, 185, 185);
+}
+
+a {
+    color: rgba(5, 141, 112, 0.801);
+    text-decoration: none;
+}
+
+a:focus {
+    color: rgba(5, 141, 112, 0.801);
+    font-weight: bold;
+}
+
+ul {
+    padding: 0px;
+    margin: 30px 150px 0px 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
+
+#cc {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(16, 206, 143);
+    margin: 50px 50px 100px 50px;
+    border-radius: 5px;
+    border: 5px solid rgb(75, 243, 187);
+}
+
+#cc div {
+    margin: 10px 0px 0px 80px;
+    padding: 85px 0px 0px 40px;
+}
+
+#cc p {
+    font-size: 19px;
+    color: aliceblue;
+}
+
+#cc h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    color: rgb(112, 255, 212);
+}
+
+#cc img {
+    border-radius: 20px;
+    margin: 60px;
+}
+
+.ping img {
+    width: 500px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+.ping {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+    margin: 50px;
+    background-color: rgb(206, 243, 240);
+    border: 3.5px dashed rgb(110, 165, 173);
+    padding: 30px;
+}
+
+.ping p {
+    width: 25em;
+}
+
+#conc {
+    text-align: center;
+    color: rgb(158, 158, 158);
+    border-top: 1px solid rgb(158, 158, 158);
+}
+
+#阿扁巴巴大俠 {
+    text-align: center;
+    margin: 100px 0px 60px;
+    font-size: 40px;
+}
+
+#阿扁巴巴大俠 img {
+    border-radius: 10px;
+    margin: 40px;
+}

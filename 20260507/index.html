@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" media="all">
+    <title>記帳本</title>
+</head>
+
+<body id="contents">
+    <header>
+        <h1>記帳本</h1>
+        <p id="tale">快來使用此範本，可以編輯這份範本的所有內容、圖片</p>
+        記錄每一筆花費是有效管理金錢的第一步<br>
+        落實紀錄，越記越有錢
+    </header>
+
+    <main id="cc">
+
+        <div>
+            <h3>1 消費日期</h3>
+        </div>
+        <div><input type="date" name="date"></div>
+
+        <div>
+            <h3>2 消費項目</h3>
+        </div>
+        <div>
+            <select name="select" class="Consumption">
+                <option value="" selected>請選擇</option>
+                <option value="1" selected>食物</option>
+                <option value="2" selected>交通</option>
+                <option value="3" selected>住宿</option>
+                <option value="4" selected>娛樂</option>
+                <option value="5" selected>醫療</option>
+                <option value="6" selected>教育</option>
+                <option value="7" selected>其他</option>
+            </select>
+        </div>
+
+        <div>
+            <h3>3 消費金額</h3>
+        </div>
+        <div><input type="text" name="text" placeholder="請填入文字" class="txt"></div>
+        <div>
+            <h3>4 付款方式</h3>
+        </div>
+        <div>
+            <td>
+                <input type="radio" name="sex" id="現金">
+                <label for="現金">現金</label>
+                <input type="radio" name="sex" id="信用卡">
+                <label for="信用卡">信用卡</label>
+                <input type="radio" name="sex" id="轉帳">
+                <label for="轉帳">轉帳</label>
+                <input type="radio" name="sex" id="行動支付">
+                <label for="行動支付">行動支付</label>
+                <input type="radio" name="sex" id="其他">
+                <label for="其他">其他</label>
+            </td>
+        </div>
+        <div>
+            <h3>5 備註</h3>
+            <textarea name="textarea" placeholder="請填入文字" class="Consumption"></textarea>
+        </div>
+
+
+
+
+        <div>
+            <h3>最後確認！</h3>
+            <p>在"其他"方面用支付了元，對嗎？<br>
+                沒問題請按下方送出，記下這筆帳～</p>
+        </div>
+    </main>
+
+
+
+</body>
+
+</html>

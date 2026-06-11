@@ -1,0 +1,55 @@
+h1{
+    color: aqua;
+    background-color: blue;
+    /* 字體背景色 */
+}
+
+.author{
+    font-size: 12px;
+    /* 文字大小 */
+    color: rgb(0, 0, 0);
+    /* 字體顏色 */
+}
+
+.section{
+    font-size: 20px;
+    line-height:2em
+}
+
+.keyword{
+    border: 1px double rgb(51, 205, 252);
+    /* border方框 : 粗細 種類(double(雙線) none(無框線) solid(實線) dotted(點線) dashed(分段線)) */
+    width: 120px;
+    /* width寬度 */
+    text-align: center;
+    /* text-align文字對齊 */
+    padding: 10px; 
+    /* padding框線內側 */
+    font-size: 1.5em;
+    float: left;
+    /* 靠左對齊 */
+    margin-left: 20px;
+    /* 向右20px */
+}
+
+.Label{
+    border: 1px double rgb(77, 154, 177);
+    background-color: rgb(26, 241, 248);
+    color: rgb(77, 154, 177);
+    width: 70px;
+    float: right;
+    margin-left: 0px;
+}
+
+.clear{
+    clear: both;
+}
+
+.extend{
+    border: 1px double rgb(77, 154, 177);
+    color: rgb(77, 154, 177);
+    width: 500px;
+    padding: 8px; 
+    font-size: 1.3em;
+    border-radius: 10px;
+}

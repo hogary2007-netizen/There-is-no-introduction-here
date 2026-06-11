@@ -1,0 +1,379 @@
+body {
+    background-color: rgb(7, 8, 8);
+}
+
+.index h1 {
+    font-size: 80px;
+    color: rgb(182, 181, 181);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.index h2 {
+    font-size: 30px;
+    color: rgb(182, 182, 182);
+    text-align: center;
+    margin: 60px auto 10px;
+    padding: 20px;
+    width: 720px;
+    border: 4px solid rgb(135, 135, 135);
+    border-radius: 10px 0px 10px 0px;
+}
+
+#a {
+    color: rgb(109, 183, 248);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 890px;
+}
+
+#a:focus {
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+#a:hover {
+    font-weight: bold;
+    color: rgb(38, 119, 186);
+}
+
+.index div {
+    display: flex;
+    font-size: 40px;
+    margin: 200px 0px 50px 380px;
+}
+
+.index div p {
+    color: rgb(135, 135, 135);
+    margin-top: 140px;
+}
+
+.index div img {
+    margin-left: 350px;
+    border-radius: 10px 0px 10px 0px;
+    border: 7px solid rgb(135, 135, 135);
+}
+
+.projet {
+    margin: 50px 465px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.projet li {
+    border-left: 5px solid rgb(34, 137, 221);
+    padding-left: 10px;
+    margin: 10px 50px;
+}
+
+.projet a {
+    color: rgb(186, 205, 221);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.projet a:focus {
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.projet a:hover {
+    font-weight: bold;
+    color: rgb(95, 153, 200);
+}
+
+.about h1 {
+    font-size: 70px;
+    color: rgb(182, 181, 181);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.back {
+    margin: 70px 110px 80px 90px;
+    padding: 100px 80px 100px 100px;
+    background-color: rgb(6, 112, 82);
+    border: 4px solid rgb(2, 202, 95);
+    border-radius: 20px 0px 20px 0px;
+}
+
+
+.introduce {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 290px;
+}
+
+.introduce h3 {
+    padding-left: 50px;
+    font-weight: bold;
+    color: rgb(221, 221, 221);
+    font-size: 60px;
+}
+
+.introduce p {
+    color: rgb(244, 244, 201);
+    margin-left: 50px;
+    font-size: 24px;
+}
+
+.about h1 {
+    font-weight: bold;
+}
+
+.traits {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.cc {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.cc img {
+    margin-bottom: 100px;
+    border-radius: 30px 0px 30px 0px;
+}
+
+.bro {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.bro img {
+    margin-bottom: 150px;
+    width: 900px;
+    height: 600px;
+    border-radius: 40px 0px 40px 0px;
+}
+
+.bro h2 {
+    font-size: 50px;
+    color: antiquewhite;
+}
+
+.cc h2 {
+    font-size: 50px;
+    color: antiquewhite;
+}
+
+.traits h3 {
+    padding-left: 50px;
+    font-weight: bold;
+    color: rgb(221, 221, 221);
+    font-size: 60px;
+}
+
+.traits p {
+    color: rgb(244, 244, 201);
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.specialty {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.specialty h3 {
+    padding-left: 50px;
+    font-weight: bold;
+    color: rgb(221, 221, 221);
+    font-size: 60px;
+}
+
+.specialty p {
+    color: rgb(244, 244, 201);
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.course {
+    margin-bottom: 100px;
+}
+
+.course h3 {
+    margin-left: 50px;
+    font-weight: bold;
+    color: rgb(221, 221, 221);
+    font-size: 60px;
+
+}
+
+.course p {
+    text-align: center;
+    margin-top: 50px;
+    color: antiquewhite;
+    font-size: 50px;
+}
+
+.course img {
+    margin-bottom: 50px;
+    width: 1300px;
+    height: 600px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.carousel-inner {
+    border-radius: 40px 40px 40px 40px;
+}
+
+.contact h1 {
+    font-size: 40px;
+    color: rgb(164, 164, 164);
+    margin: 120px 0px 70px 200px;
+}
+
+
+.projet2 {
+    display: flex;
+    list-style-type: none;
+    margin: 50px 120px 80px;
+}
+
+
+.projet2 li {
+    border-left: 5px solid rgb(34, 137, 221);
+    padding-left: 10px;
+    margin: 10px 50px;
+}
+
+
+.projet2 a {
+    color: rgb(186, 205, 221);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.projet2 a:focus {
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.projet2 a:hover {
+    font-weight: bold;
+    color: rgb(95, 153, 200);
+}
+
+.myname {
+    font-size: 19px;
+    font-weight: bold;
+    background-color: rgb(55, 139, 207);
+    border: 5px solid rgb(36, 103, 144);
+    border-radius: 20px 0px 20px 0px;
+    width: 800px;
+    padding: 20px 22px 30px 22px;
+    margin: 0px 500px 50px 200px;
+    list-style-type: none;
+    color: rgb(224, 246, 253);
+}
+
+.myname a {
+    color: rgb(224, 246, 253);
+    text-decoration: none;
+}
+
+.myname a:focus {
+    text-decoration: line-through;
+    color: rgb(36, 103, 144);
+}
+
+.myname a:hover {
+    font-weight: bold;
+    color: rgb(36, 103, 144);
+}
+
+.portfolio h1 {
+    font-size: 80px;
+    color: rgb(182, 182, 181);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.portfolio h3 {
+    margin-top: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(207, 207, 207);
+    font-size: 35px;
+}
+
+.coloring {
+    margin: 50px 90px;
+}
+
+.coloring a {
+    font-weight: bold;
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.coloring a:focus {
+    text-decoration: line-through;
+    font-weight: bold;
+    color: rgb(255, 176, 6);
+}
+
+.coloring a:hover {
+    font-weight: bold;
+    color: rgb(255, 176, 6);
+}
+
+.coloring h5 {
+    text-align: center;
+}
+
+.card {
+    border-radius: 10px 0px 10px 0px;
+    border: 3px solid rgb(239, 128, 2);
+    background-color: rgb(159, 97, 3);
+}
+
+.skills{
+    font-size: 60px;
+    color: rgb(182, 181, 181);
+    margin-left: 200px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+
+.Block h3 {
+    color: rgb(247, 229, 151);
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.Block p {
+    color: rgb(253, 253, 253);
+    font-size: 20px;
+}
+
+#demonstration{
+    margin-bottom: 50px;
+    color: rgb(212, 212, 212);
+    font-size: 150%;
+}
+
+#demonstration h3{
+    color: rgb(212, 212, 212);
+    font-size: 30px;
+}
+
+.Block{
+    margin:90px 200px 90px;
+}
+
+
+
+
